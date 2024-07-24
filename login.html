@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body class="bg-darkBg">
+    <div class="bg-white rounded mt-7 max-w-xl mx-auto p-10">
+      <h3 id="greeting"></h3>
+      <form action="" class="pt-10 space-y-4" id="loginForm">
+        <div>
+          <label class="block p-2" for="username">User Name</label>
+          <input
+            name="username"
+            class="w-full outline-none bg-gray-200 p-2 rounded"
+            type="text"
+            placeholder="username"
+            id="username"
+            required
+            value="emilys"
+          />
+        </div>
+        <div>
+          <label class="block p-2" for="password">Password</label>
+          <input
+            name="password"
+            class="w-full outline-none bg-gray-200 p-2 rounded"
+            type="password"
+            placeholder="password"
+            id="password"
+            required
+            value="emilyspass"
+          />
+        </div>
+        <div>
+          <button
+            class="bg-green-400 p-3 rounded w-full text-white hover:bg-green-500 font-semibold"
+            id="loginButton"
+          >
+            Log In
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script type="module" src="./assets/js/login.js"></script>
+  </body>
+</html>
