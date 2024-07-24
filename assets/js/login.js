@@ -4,10 +4,6 @@ const passWordInputEl = document.querySelector("#password");
 const loginBtnEl = document.querySelector("#loginButton")
 const greetingEl = document.querySelector("#greeting");
 
-/* loginBtnEl.addEventListener("click", async (e)=>{
-    e.preventDefault()
-    const userInfo = await loginUser(userNameInputEl.value, passWordInputEl.value)
-}) */
 
     loginBtnEl.addEventListener("click", async (e) =>{
         e.preventDefault();
