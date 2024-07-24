@@ -9,7 +9,7 @@ const greetingEl = document.querySelector("#greeting");
     const userInfo = await loginUser(userNameInputEl.value, passWordInputEl.value)
 }) */
 
-    loginBtnEl.addEventListener("click", async(e)=>{
+    loginBtnEl.addEventListener("click", async (e) =>{
         e.preventDefault();
 
         if(userNameInputEl && passWordInputEl){
